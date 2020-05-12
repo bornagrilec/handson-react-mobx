@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  display: block;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.row label {
+  display: block;
+}
+
+.row input {
+  display: block;
+  width: 100%;
+  line-height: 40px;
+}
+
+.error {
+  color: #a12828;
+  font-size: 13px;
+}
+
+button {
+  height: 40px;
+  width: 100%;
+}
